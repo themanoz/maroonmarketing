@@ -49,7 +49,7 @@ export const Services = () => {
                 </div>
                 <div className="pt-4">
                   <h3 className="text-lg font-bold">Sales Funnel</h3>
-                  <p className="text-sm text-gray-500max-w-[600px]">
+                  <p className="text-sm text-gray-500 max-w-[600px]">
                   {/* Empower your organization with skillful sales funnels that ignite growth and deliver results. */}
                   Drive results with targeted campaigns and sales funnels.
                   </p>
