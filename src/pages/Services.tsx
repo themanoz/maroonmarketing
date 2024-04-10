@@ -32,7 +32,7 @@ export const Services = () => {
               </div>
               <div className="grid gap-1">
                 <div className="flex justify-center items-center">
-                  <img src={web} alt="web" width={400} height={400} />
+                  <img src={web} alt="web" width={300} height={300} />
                 </div>
                 <div>
                   <h3 className="text-lg font-bold">Web Development</h3>
