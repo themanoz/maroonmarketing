@@ -1,6 +1,7 @@
 import email from "../assets/email.svg";
 import web from "../assets/web.svg";
 import ads from "../assets/ads.svg";
+import sales from "../assets/sales.svg"
 
 export const Services = () => {
   return (
@@ -44,7 +45,7 @@ export const Services = () => {
               </div>
               <div className="grid gap-1">
                 <div className="flex justify-center items-center">
-                  <img src={web} alt="email" width={100} height={100} />
+                  <img src={sales} alt="email" width={200} height={200} />
                 </div>
                 <div className="pt-4">
                   <h3 className="text-lg font-bold">Sales Funnel</h3>
