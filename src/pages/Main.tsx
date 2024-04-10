@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-// import stand from "../assets/stand.svg";
+import victory from "../assets/victory.svg";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 
 const content = [
@@ -56,11 +56,11 @@ export const Main = () => {
   return (
     <>
       <main>
-        <section className="w-full py-4 sm:py-12 md:py-24 lg:py-30 xl:py-44">
-          <div className="container px-4 md:px-16">
+        <section className="w-full py-4 sm:py-12 md:py-24 lg:py-30 xl:py-10">
+          <div className="container px-4 md:px-20">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-14 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-4 pt-3">
+                <div className="space-y-4 pt-3 pl-10">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     We help you stand out in a crowded market.
                   </h1>
@@ -69,13 +69,14 @@ export const Main = () => {
                     strategies that drive results. Let us help you tell your
                     story.
                   </p>
-                </div>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                  <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button className="bg-gradient-to-r from-red-900 to-red-900 w-full md:w-4/5 lg:w-auto">
                     {" "}
                     Book a Call
                   </Button>
                 </div>
+                </div>
+                
               </div>
               {/* <img
               alt="Hero"
@@ -84,9 +85,9 @@ export const Main = () => {
               src={stand}
               width="550"
             /> */}
-              {/* <div>
-              <img src={stand} width={900} height={500} />
-            </div> */}
+              <div className="pl-12">
+              <img src={victory} width={550} height={550} />
+            </div>
             </div>
           </div>
         </section>
