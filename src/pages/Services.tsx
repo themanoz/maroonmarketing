@@ -1,5 +1,6 @@
 import email from "../assets/email.svg";
 import web from "../assets/web.svg";
+import ads from "../assets/ads.svg";
 
 export const Services = () => {
   return (
@@ -35,18 +36,9 @@ export const Services = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold">Web Development</h3>
-                  <p className="text-sm text-gray-500 lg:max-w-[600px]"></p>
-                </div>
-              </div>
-              <div className="grid gap-1">
-                <div className="flex justify-center items-center">
-                  <img src={web} alt="email" width={100} height={100} />
-                </div>
-                <div className="pt-4">
-                  <h3 className="text-lg font-bold">Paid Advertising</h3>
-                  <p className="text-sm text-gray-500max-w-[600px]">
-                    Elevate customer engagement and foster a thriving community
-                    through captivating content.
+                  <p className="text-sm text-gray-500 lg:max-w-[600px]">
+                    Developing conversion-focused WordPress & Shopify websites,
+                    prioritizing mobile-responsive design.
                   </p>
                 </div>
               </div>
@@ -55,10 +47,22 @@ export const Services = () => {
                   <img src={web} alt="email" width={100} height={100} />
                 </div>
                 <div className="pt-4">
-                  <h3 className="text-lg font-bold">Email Marketing</h3>
-                  <p className="text-sm text-gray-500  max-w-[600px]">
+                  <h3 className="text-lg font-bold">Sales Funnel</h3>
+                  <p className="text-sm text-gray-500max-w-[600px]">
                     Reach your audience with targeted campaigns that drive
                     results.
+                  </p>
+                </div>
+              </div>
+              <div className="grid gap-1">
+                <div className="flex justify-center items-center">
+                  <img src={ads} alt="email" width={200} height={100} />
+                </div>
+                <div className="pt-4">
+                  <h3 className="text-lg font-bold">Paid Advertising</h3>
+                  <p className="text-sm text-gray-500  max-w-[600px]">
+                    Elevate customer engagement and foster a thriving community
+                    through captivating content.
                   </p>
                 </div>
               </div>
