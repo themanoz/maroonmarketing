@@ -1,4 +1,4 @@
-// import email from "../assets/email.svg";
+import email from "../assets/email.svg";
 import web from "../assets/web.svg";
 import ads from "../assets/ads.svg";
 
