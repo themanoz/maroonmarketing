@@ -4,9 +4,9 @@ import { Button } from "./ui/button"
 export const AppBar = () => {
     return(
         <>
-            <div className="flex justify-between items-center px-16 font-normal tracking-normal top-0 sticky bg-white ">
+            <div className="flex justify-between items-center px-14 font-normal tracking-normal top-0 sticky bg-white ">
                 <div>
-                    <img src={logo} className="w-24 h-24 cursor-pointer"/>
+                    <a href="/"><img src={logo} className="w-24 h-24 cursor-pointer"/></a>
                 </div>
                 <div>
                     <ul className="flex gap-3 cursor-pointer text-lg font-medium items-center pr-8.5">
