@@ -38,7 +38,7 @@ export const Services = () => {
                   <p className="text-sm text-gray-500 lg:max-w-[600px]">
                     {/* Developing conversion-focused WordPress & Shopify websites,
                     prioritizing mobile-responsive design. */}
-                    Creating conversion-driven WordPress & Shopify sites, emphasizing mobile-friendly design.
+                    Creating conversion-driven WordPress, emphasizing mobile-friendly design.
                   </p>
                 </div>
               </div>
