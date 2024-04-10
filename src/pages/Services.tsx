@@ -1,5 +1,5 @@
-// import email from "../assets/email.svg";
-import victory from "../assets/victory.svg"
+import email from "../assets/email.svg";
+import web from "../assets/web.svg";
 
 export const Services = () => {
   return (
@@ -16,14 +16,14 @@ export const Services = () => {
                 crowded market.
               </p>
             </div>
-            <div className="mx-auto grid max-w-5xl items-start gap-6 sm:grid-cols-2 md:gap-12 lg:grid-cols-2 pt-5">
-              <div className="grid gap-1">
+            <div className="mx-auto grid max-w-5xl items-start gap-6 sm:grid-cols-2 md:gap-12 lg:grid-cols-2 pt-12">
+              <div className="grid gap-1 pt-20">
                 <div className="flex justify-center items-center">
-                  <img src={victory} alt="email" width={100} height={100} />
+                  <img src={email} alt="email" width={200} height={200} />
                 </div>
                 <div className="pt-4">
                   <h3 className="text-lg font-bold">Email Marketing</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                  <p className="text-sm text-gray-500  max-w-[600px]">
                     Reach your audience with targeted campaigns that drive
                     results.
                   </p>
@@ -31,11 +31,20 @@ export const Services = () => {
               </div>
               <div className="grid gap-1">
                 <div className="flex justify-center items-center">
-                  <img src={victory} alt="email" width={100} height={100} />
+                  <img src={web} alt="web" width={300} height={300} />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold">Web Development</h3>
+                  <p className="text-sm text-gray-500 lg:max-w-[600px]"></p>
+                </div>
+              </div>
+              <div className="grid gap-1">
+                <div className="flex justify-center items-center">
+                  <img src={web} alt="email" width={100} height={100} />
                 </div>
                 <div className="pt-4">
                   <h3 className="text-lg font-bold">Paid Advertising</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                  <p className="text-sm text-gray-500max-w-[600px]">
                     Elevate customer engagement and foster a thriving community
                     through captivating content.
                   </p>
@@ -43,23 +52,11 @@ export const Services = () => {
               </div>
               <div className="grid gap-1">
                 <div className="flex justify-center items-center">
-                  <img src={victory} alt="email" width={100} height={100} />
+                  <img src={web} alt="email" width={100} height={100} />
                 </div>
                 <div className="pt-4">
                   <h3 className="text-lg font-bold">Email Marketing</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Reach your audience with targeted campaigns that drive
-                    results.
-                  </p>
-                </div>
-              </div>
-              <div className="grid gap-1">
-                <div className="flex justify-center items-center">
-                  <img src={victory} alt="email" width={100} height={100} />
-                </div>
-                <div className="pt-4">
-                  <h3 className="text-lg font-bold">Email Marketing</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                  <p className="text-sm text-gray-500  max-w-[600px]">
                     Reach your audience with targeted campaigns that drive
                     results.
                   </p>
