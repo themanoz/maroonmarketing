@@ -10,7 +10,7 @@ export const Contact = () => {
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
               Ready to elevate your brand?
             </h2>
-            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="mx-auto max-w-[650px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               Contact us to discuss how we can help you achieve your marketing
               goals.
             </p>
