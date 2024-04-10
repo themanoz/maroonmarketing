@@ -16,19 +16,20 @@ export const Contact = () => {
             </p>
           </div>
           <div className="mx-auto w-full max-w-sm space-y-2">
-            <form className="flex space-x-2">
+            <form className="flex space-x-2 flex-col md:flex-row items-center">
               <Input
-                className="max-w-lg flex-1"
+                className="max-w-lg flex-1 w-full md:w-4/5 md:mt-2"
                 placeholder="Enter your email"
                 type="email"
               />
-              <Button className="bg-gradient-to-r from-red-900 to-red-900 w-full md:w-4/5 lg:w-auto">
+              <Button className="bg-gradient-to-r from-red-900 to-red-900 w-full 
+              md:full lg:w-auto mt-4 md:mt-2">
                 {" "}
                 Signup
               </Button>
             </form>
             <p className="text-xs text-gray-500 dark:text-gray-400">
-              Sign up to get notified when we launch.
+              Sign up to get notified when we launch {" "}
               <a className="underline underline-offset-2" href="#">
                 Terms & Conditions
               </a>

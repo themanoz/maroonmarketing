@@ -14,8 +14,7 @@ export const Services = () => {
                 Our Services
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                We offer a range of services to help your brand stand out in a
-                crowded market.
+              We offer a full suite of marketing services to help your brand shine.
               </p>
             </div>
             <div className="mx-auto grid max-w-5xl items-start gap-6 sm:grid-cols-2 md:gap-12 lg:grid-cols-2 pt-12">
