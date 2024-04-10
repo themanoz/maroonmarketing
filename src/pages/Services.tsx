@@ -1,4 +1,4 @@
-// import email from "../assets/email.svg";
+import email from "../assets/email.svg";
 import web from "../assets/web.svg";
 import ads from "../assets/ads.svg";
 
@@ -20,7 +20,7 @@ export const Services = () => {
             <div className="mx-auto grid max-w-5xl items-start gap-6 sm:grid-cols-2 md:gap-12 lg:grid-cols-2 pt-12">
               <div className="grid gap-1 pt-20">
                 <div className="flex justify-center items-center">
-                  <img src={web} alt="email" width={200} height={200} />
+                  <img src={email} alt="email" width={200} height={200} />
                 </div>
                 <div className="pt-4">
                   <h3 className="text-lg font-bold">Email Marketing</h3>
