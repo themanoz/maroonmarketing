@@ -26,8 +26,7 @@ export const Services = () => {
                 <div className="pt-4">
                   <h3 className="text-lg font-bold">Email Marketing</h3>
                   <p className="text-sm text-gray-500  max-w-[600px]">
-                    Reach your audience with targeted campaigns that drive
-                    results.
+                  Engage your audience with targeted email campaigns that deliver results.
                   </p>
                 </div>
               </div>
@@ -38,8 +37,9 @@ export const Services = () => {
                 <div>
                   <h3 className="text-lg font-bold">Web Development</h3>
                   <p className="text-sm text-gray-500 lg:max-w-[600px]">
-                    Developing conversion-focused WordPress & Shopify websites,
-                    prioritizing mobile-responsive design.
+                    {/* Developing conversion-focused WordPress & Shopify websites,
+                    prioritizing mobile-responsive design. */}
+                    Creating conversion-driven WordPress & Shopify sites, emphasizing mobile-friendly design.
                   </p>
                 </div>
               </div>
@@ -50,8 +50,8 @@ export const Services = () => {
                 <div className="pt-4">
                   <h3 className="text-lg font-bold">Sales Funnel</h3>
                   <p className="text-sm text-gray-500max-w-[600px]">
-                    Reach your audience with targeted campaigns that drive
-                    results.
+                  {/* Empower your organization with skillful sales funnels that ignite growth and deliver results. */}
+                  Drive results with targeted campaigns and sales funnels.
                   </p>
                 </div>
               </div>
