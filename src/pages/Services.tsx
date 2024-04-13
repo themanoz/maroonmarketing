@@ -40,7 +40,7 @@ export const Services = () => {
                   </p>
                 </div>
               </div>
-              <div className="grid gap-1">
+              <div className="grid gap-1 pt-20">
                 <div className="flex justify-center items-center">
                   <img src={sales} alt="email" width={200} height={200} />
                 </div>
@@ -52,7 +52,7 @@ export const Services = () => {
                   </p>
                 </div>
               </div>
-              <div className="grid gap-1">
+              <div className="grid gap-1 pt-20">
                 <div className="flex justify-center items-center">
                   <img src={ads} alt="email" width={200} height={100} />
                 </div>
