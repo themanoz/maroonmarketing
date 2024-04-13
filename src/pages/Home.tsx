@@ -8,7 +8,7 @@ export const Home = () => {
       <div className="container px-4 lg:px-20 md:px-32">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-14 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
-              <div className="space-y-4 pt-3 ">
+              <div className="space-y-4 pt-3 lg:pl-10">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                   We help you stand out in a crowded market.
                 </h1>
@@ -25,7 +25,7 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="pl-12">
+            <div className="lg:pl-12">
               <img src={victory} width={550} height={550} />
             </div>
           </div>
