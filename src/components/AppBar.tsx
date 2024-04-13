@@ -2,6 +2,12 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 import { Button } from "./ui/button";
 import { MenuIcon } from "lucide-react";
+import {
+  DropdownMenuContent,
+  DropdownMenuTrigger,
+  DropdownMenu,
+} from "./ui/dropdown-menu";
+import { DropdownMenuItem } from "@radix-ui/react-dropdown-menu";
 
 export const AppBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,23 +35,26 @@ export const AppBar = () => {
           </ul>
         </div>
         <div className="block md:hidden">
-          <MenuIcon onClick={() => setIsOpen(!isOpen)} />
-          {isOpen && (
-            <div className="absolute top-16 right-0 bg-white shadow-md p-4">
-              <ul className="py-2">
-                <li className="hover:text-slate-400">
-                  <a href="#services">Services</a>
-                </li>
-                {/* <li className="hover:text-slate-400"><a href="#">About us</a></li> */}
-                <li className="hover:text-slate-400">
-                  <Button className="bg-gradient-to-r from-red-900 to-red-900 ">
-                    {" "}
-                    Contact us
-                  </Button>
-                </li>
-              </ul>
-            </div>
-          )}
+          <DropdownMenu>
+            <DropdownMenuTrigger>
+              <MenuIcon onClick={() => setIsOpen(!isOpen)} />
+            </DropdownMenuTrigger>
+            {isOpen && (
+            <DropdownMenuContent>
+              <DropdownMenuItem className="p-4">
+                <a href="#services" className="text-slate-400">
+                  Services
+                </a>
+              </DropdownMenuItem>
+              <DropdownMenuItem className="p-4">
+                <Button className="bg-gradient-to-r from-red-900 to-red-900 hover:text-slate-400">
+                  {" "}
+                  Contact us
+                </Button>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+            )}
+          </DropdownMenu>
         </div>
       </div>
     </>
