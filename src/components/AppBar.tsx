@@ -36,7 +36,7 @@ export const AppBar = () => {
             </li>
           </ul>
         </div>
-        <div className="block md:hidden pr-8">
+        <div className="block md:hidden pr-4">
           <DropdownMenu>
             <DropdownMenuTrigger>
               <MenuIcon onClick={() => setIsOpen(!isOpen)} />
