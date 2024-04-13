@@ -25,7 +25,7 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:pl-12">
+            <div className="pt-4 lg:pt-0 lg:pl-12">
               <img src={victory} width={550} height={550} />
             </div>
           </div>
