@@ -7,7 +7,9 @@ import {
   DropdownMenuTrigger,
   DropdownMenu,
   DropdownMenuItem,
+  DropdownMenuSeparator
 } from "./ui/dropdown-menu";
+
 
 export const AppBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,6 +48,7 @@ export const AppBar = () => {
                     Services
                   </a>
                 </DropdownMenuItem>
+                <DropdownMenuSeparator />
                 <DropdownMenuItem>
                   <a href="#contact" className="text-slate-400"> Contact us</a>
                 </DropdownMenuItem>
