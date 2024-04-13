@@ -16,7 +16,7 @@ export const AppBar = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center px-6 lg:px-10 font-normal tracking-normal top-0 sticky bg-white ">
+      <div className="flex justify-between items-center px-8 lg:px-10 font-normal tracking-normal top-0 sticky bg-white ">
         <div className="pr-8">
           <a href="/">
             <img src={logo} className="w-24 h-24 cursor-pointer" alt="Logo" />
