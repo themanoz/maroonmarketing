@@ -41,12 +41,12 @@ export const AppBar = () => {
             </DropdownMenuTrigger>
             {isOpen && (
             <DropdownMenuContent>
-              <DropdownMenuItem className="p-4">
+              <DropdownMenuItem>
                 <a href="#services" className="text-slate-400">
                   Services
                 </a>
               </DropdownMenuItem>
-              <DropdownMenuItem className="p-4">
+              <DropdownMenuItem>
                 <Button className="bg-gradient-to-r from-red-900 to-red-900 hover:text-slate-400">
                   {" "}
                   Contact us
