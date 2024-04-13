@@ -29,13 +29,13 @@ export const Services = () => {
                   </p>
                 </div>
               </div>
-              <div className="grid gap-1">
+              <div className="grid gap-1 pt-20">
                 <div className="flex justify-center items-center">
                   <img src={web} alt="web" width={200} height={200} />
                 </div>
-                <div>
+                <div className="pt-4">
                   <h3 className="text-lg font-bold">Web Development</h3>
-                  <p className="text-sm text-gray-500 lg:max-w-[600px]">
+                  <p className="text-sm text-gray-500 max-w-[600px]">
                   Comprehensive Website Services to Ignite Your Online Success
                   </p>
                 </div>
