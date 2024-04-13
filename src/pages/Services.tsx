@@ -1,5 +1,5 @@
 import email from "../assets/email.svg";
-import web from "../assets/web.svg";
+import webdev from "../assets/webdev.svg";
 import ads from "../assets/ads.svg";
 import sales from "../assets/sales.svg"
 
@@ -31,14 +31,12 @@ export const Services = () => {
               </div>
               <div className="grid gap-1">
                 <div className="flex justify-center items-center">
-                  <img src={web} alt="web" width={300} height={300} />
+                  <img src={webdev} alt="web" width={230} height={230} />
                 </div>
                 <div>
                   <h3 className="text-lg font-bold">Web Development</h3>
                   <p className="text-sm text-gray-500 lg:max-w-[600px]">
-                    {/* Developing conversion-focused WordPress & Shopify websites,
-                    prioritizing mobile-responsive design. */}
-                    Creating conversion-driven WordPress, emphasizing mobile-friendly design.
+                  Comprehensive Website Services to Ignite Your Online Success
                   </p>
                 </div>
               </div>
@@ -61,8 +59,9 @@ export const Services = () => {
                 <div className="pt-4">
                   <h3 className="text-lg font-bold">Paid Advertising</h3>
                   <p className="text-sm text-gray-500  max-w-[600px]">
-                    Elevate customer engagement and foster a thriving community
-                    through captivating content.
+                    {/* Elevate customer engagement and foster a thriving community
+                    through captivating content. */}
+                    Customize campaigns to achieve your goals and effectively engage your target audience.
                   </p>
                 </div>
               </div>
