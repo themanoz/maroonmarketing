@@ -1,5 +1,5 @@
 import email from "../assets/email.svg";
-import webdev from "../assets/webdev.svg";
+import web from "../assets/web.svg";
 import ads from "../assets/ads.svg";
 import sales from "../assets/sales.svg"
 
@@ -31,7 +31,7 @@ export const Services = () => {
               </div>
               <div className="grid gap-1">
                 <div className="flex justify-center items-center">
-                  <img src={webdev} alt="web" width={230} height={230} />
+                  <img src={web} alt="web" width={200} height={200} />
                 </div>
                 <div>
                   <h3 className="text-lg font-bold">Web Development</h3>
