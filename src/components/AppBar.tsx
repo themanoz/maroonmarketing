@@ -16,13 +16,13 @@ export const AppBar = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center px-8 lg:px-10 font-normal tracking-normal top-0 sticky bg-white ">
-        <div>
+      <div className="flex justify-between items-center font-normal tracking-normal top-0 sticky bg-white ">
+        <div className="pl-0 lg:pl-10">
           <a href="/">
             <img src={logo} className="w-24 h-24 cursor-pointer" alt="Logo" />
           </a>
         </div>
-        <div className="hidden md:block">
+        <div className="hidden md:block  pr-0 lg:pr-10">
           <ul className="flex gap-3 cursor-pointer text-lg font-medium items-center pr-8.5 tracking-tight">
             <li className="hover:text-slate-400">
               <a href="#services">Services</a>
@@ -36,7 +36,7 @@ export const AppBar = () => {
             </li>
           </ul>
         </div>
-        <div className="block md:hidden">
+        <div className="block md:hidden pr-8">
           <DropdownMenu>
             <DropdownMenuTrigger>
               <MenuIcon onClick={() => setIsOpen(!isOpen)} />
