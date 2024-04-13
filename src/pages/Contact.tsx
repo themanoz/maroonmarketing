@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 export const Contact = () => {
   return (
     <>
-      <section className="w-full py-12 md:py-24 lg:py-48 min-h-full min-b">
+      <section className="w-full py-12 md:py-24 lg:py-48 min-h-full min-b" id="contact">
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">

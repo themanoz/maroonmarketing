@@ -6,8 +6,8 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
   DropdownMenu,
+  DropdownMenuItem,
 } from "./ui/dropdown-menu";
-import { DropdownMenuItem } from "@radix-ui/react-dropdown-menu";
 
 export const AppBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,19 +40,16 @@ export const AppBar = () => {
               <MenuIcon onClick={() => setIsOpen(!isOpen)} />
             </DropdownMenuTrigger>
             {isOpen && (
-            <DropdownMenuContent>
-              <DropdownMenuItem>
-                <a href="#services" className="text-slate-400">
-                  Services
-                </a>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Button className="bg-gradient-to-r from-red-900 to-red-900 hover:text-slate-400">
-                  {" "}
-                  Contact us
-                </Button>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
+              <DropdownMenuContent>
+                <DropdownMenuItem>
+                  <a href="#services" className="text-slate-400">
+                    Services
+                  </a>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <a href="#contact" className="text-slate-400"> Contact us</a>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
             )}
           </DropdownMenu>
         </div>
