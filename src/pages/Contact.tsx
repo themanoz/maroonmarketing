@@ -25,7 +25,7 @@ export const Contact = () => {
               <Button className="bg-gradient-to-r from-red-900 to-red-900 w-full 
               md:full lg:w-auto mt-4 md:mt-2">
                 {" "}
-                Signup
+                Contact
               </Button>
             </form>
             <p className="text-xs text-gray-500 dark:text-gray-400">
